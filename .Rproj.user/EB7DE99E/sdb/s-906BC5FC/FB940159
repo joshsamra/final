@@ -1,0 +1,18 @@
+{
+    "contents" : "# ===================================================\n# skeleton.R\n# Author(s): Josh Samra\n# Date: August 10th, 2015\n# Description: Creating the directories, Readme, and resource download instructions.\n# ===================================================\n\n#Creating the directories for the project\ndir.create(\"/Users/joshsamra/Desktop/summer2015/stat133/final/code\")\ndir.create(\"/Users/joshsamra/Desktop/summer2015/stat133/final/rawdata\")\ndir.create(\"/Users/joshsamra/Desktop/summer2015/stat133/final/data\")\ndir.create(\"/Users/joshsamra/Desktop/summer2015/stat133/final/resources\")\ndir.create(\"/Users/joshsamra/Desktop/summer2015/stat133/final/report\")\ndir.create(\"/Users/joshsamra/Desktop/summer2015/stat133/final/images\")\n\n#Creating the Readme file\nfile.create('README.md')\nfile.edit('README.md')\n\n#Getting Data\ndownload.file('ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r06/wmo/hurdat_format/basin/Basin.NA.ibtracs_hurdat.v03r06.hdat',\n              destfile = 'raw_NA.hdat')\ndownload.file('ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r06/wmo/csv/basin/Basin.EP.ibtracs_wmo.v03r06.csv',\n              destfile = 'EP_1980_2010.csv')\ndownload.file('ftp://eclipse.ncdc.noaa.gov/pub/ibtracs/v03r06/wmo/csv/basin/Basin.NA.ibtracs_wmo.v03r06.csv',\n              destfile = 'NA_1980_2010.csv')",
+    "created" : 1439311375046.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "406010537",
+    "id" : "FB940159",
+    "lastKnownWriteTime" : 1439670797,
+    "path" : "~/Dropbox/stat133finalproj/final/skeleton.R",
+    "project_path" : "skeleton.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

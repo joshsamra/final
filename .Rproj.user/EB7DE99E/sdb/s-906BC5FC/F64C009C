@@ -1,0 +1,17 @@
+{
+    "contents" : "# ===================================================\n# README.md\n# Author(s): Josh Samra\n# Date: August 10th, 2015\n# Description: The guide for my Stat 133 Summer 2015 Final Project\n# ===================================================\n\nhttps://github.com/joshsamra/stat133finalproj\n\nskeleton.R contains all of the code to create the file system used for the project, and all of the code to download the relevant raw data.\n\nNA_code.R contains the code necessary to clean raw_NA.hdat in the code folder. It provuded storms.csv and tracks.csv.\n\nNA_EPcode.R contains the code necessary to clean up the NA and EP csv files used for the visualization portion of the project.\n\nanalysis.R contains the data analysis portion that breaks down wind speeds data and regressions between wind and pressure\n\nstorms.csv and tracks.csv contain the cleaned data to be used for analysis in the data folder.\n\nfinal_report is the final report of all findings in the 'report' folder.\n\nRelevant images and resouces can be found in their respective folders.\n\n\n\n\n",
+    "created" : 1439312299914.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4283344892",
+    "id" : "F64C009C",
+    "lastKnownWriteTime" : 1439745837,
+    "path" : "~/Dropbox/stat133finalproj/final/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "type" : "markdown"
+}

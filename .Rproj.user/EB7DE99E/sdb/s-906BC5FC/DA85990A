@@ -1,0 +1,18 @@
+{
+    "contents" : "# ===================================================\n# NA_EPcode.R\n# Author(s): Josh Samra\n# Date: August 10th, 2015\n# Description: Cleaning the NA and EP csv files and creating visualizations\n# Data: IBTrACS NA and EP 1980 to 2010 csv's.\n# ===================================================\nlibrary(ggplot2)\nlibrary(maps)\n\nna_1980_2010 <- read.csv('NA_1980_2010.csv', header = TRUE)\nep_1980_2010 <- read.csv('EP_1980_2010.csv', header = TRUE)\n\n",
+    "created" : 1439678481300.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1545874302",
+    "id" : "DA85990A",
+    "lastKnownWriteTime" : 1439746129,
+    "path" : "~/Dropbox/stat133finalproj/final/code/NA_EPcode.R",
+    "project_path" : "code/NA_EPcode.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

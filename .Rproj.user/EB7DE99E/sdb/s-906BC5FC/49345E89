@@ -1,0 +1,25 @@
+{
+    "contents" : "",
+    "created" : 1439679494489.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "49345E89",
+    "lastKnownWriteTime" : -5764607523034234880,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "g6e1qfdkp9",
+        "caption" : "ep1980_2010",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=ep1980_2010&cache_key=g6e1qfdkp9",
+        "displayedObservations" : 25493,
+        "environment" : "",
+        "object" : "ep1980_2010",
+        "totalObservations" : 25493,
+        "variables" : 16
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "type" : "r_dataframe"
+}
